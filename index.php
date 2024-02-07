@@ -1,42 +1,45 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8" />
-  <title>JRWebmaster</title>
+  <title>JR Webmaster</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="follow, index" />
-  <meta name="description"
-    content="Robson Guimarães - Desenvolvedor full stack com mais de 10 anos de experiência no mercado, especialista em marketing digital e inteligência artificial." />
+  <meta name="description" content="JR Webmaster - contrate um webmaster para gerênciar seu negócio online." />
   <link href="favicon.png" rel="icon" type="image/png" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" type="text/css" href="cardMagic.css">
+  <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS -->
+  <link rel="stylesheet" type="text/css" href="css/cardMagic.css" /><!-- Animação do quadro mágico -->
+  <link rel="stylesheet" type="text/css" href="css/animista.css" /><!-- Animação css personalizada -->
 </head>
 
 <body class="antialiased text-slate-400 bg-slate-900">
 
-  <!-- Link flutuante do topo -->
-  <div class="bg-indigo-600 px-4 py-3 text-white">
+  <div class="shadow-pop-tr bg-indigo-600 px-4 py-3 text-white">
     <p class="text-center text-sm font-medium">
       <a href="https://jrguimaraes.com" target="_blank">
-        💸 Jrguimaraes - Website 🔗
+        🔗 Blog pessoal
       </a>
     </p>
   </div>
 
   <!-- Corpo da landingpage -->
-  <div class="flex-block max-w-xl p-4 md:pd-8 mx-auto mt-4">
+  <div id="corpo-lp" class="flex-block max-w-xl p-4 md:pd-8 mx-auto mt-4">
     <div class="bg-white shadow overflow-hidden rounded-lg">
 
       <!-- Header Hero -->
       <div class="px-4 py-5 sm:px-6 flex justify-between">
         <div>
           <h1 class="text-xl leading-6 font-bold text-gray-900">
-            $~ JRWebmaster
+            👨‍💻 JR Webmaster
           </h1>
-          <h2 class="text-sm mt-1 leading-6 text-gray-500">Olá mundo!</h2>
+          <h2 class="text-sm mt-1 leading-6 text-gray-500">Robson Junior</h2>
           <p class="m-1 p-3 max-w-2xl text-sm text-gray-500">
-            Meu nome é Robson Guimarães Junior, criador de conteúdo, programador full stack e habilidades com AI.
+            Criador de conteúdo, Webmaster entusiasta da Inteligência Artificial. Sócio consultor de marketing da
+            agência <u>AzureCompany</u>
           </p>
         </div>
         <div class="avatar-card">
@@ -46,12 +49,12 @@
 
       <div class="border-t border-gray-200">
         <div class="bg-gray-50 px-4 py-5 w-full flex space-x-0.5">
-          <!-- Corpo de links -->
-
           <div class="mt-1 text-sm text-gray-900">
-            <pre><i>"Se você acredita que pode ou 
- não pode, de qualquer forma você
- está certo." - Henry Ford</i></pre>
+            <pre><i>
+  Meu objetvo é fornecer soluções que não apenas 
+  atendem às suas necessidades, mas também elevam
+  a experiência do cliente.
+            </i></pre>
             <!-- Redes Sociais links na horizontal com icones -->
             <div class="mt-6 flex space-x-4">
               <a href="https://www.youtube.com/channel/UCgR9ZNox6CIJ5YUmD4MMbCA" target="_blank">
@@ -92,66 +95,48 @@
                   </path>
                 </svg>
               </a><!-- Linkedin -->
-              <a href="https://www.facebook.com/profile.php?id=61552632753441" target="_blank">
-                <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#7289da] fill-current" viewBox="0 0 24 24">
-                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path
-                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                </svg>
-              </a><!-- Facebook -->
-              <!-- Twitch TV Straming 
-              <a href="https://twitch.tv/gndxdev/" target="_blank">
-                <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#9146FF] fill-current" viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <title>Twitch</title>
-                  <path
-                    d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" />
-                </svg>
-              </a>
-	            -->
-              <a href="https://discord.gg/kRkhaWmh" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#7289da] fill-current" viewBox="0 0 24 24">
-                  <path fill="currentColor"
-                    d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418Z" />
-                </svg>
-              </a><!-- Discord -->
             </div>
           </div>
-        </div>
+        </div><!-- End horizontal Icons-->
 
         <!-- Lista de links úteis - na vertical -->
-        <div class="bg-fuchsia-200 px-4 py-5 w-full flex justify-between">
-          <a class="text-sm font-bold text-fuchsia-600 text-center hover:text-fuchsia-800 cursor-pointer"
-            href="http://wa.me/+5521981439590/?Oi,%20peguei%20o%20contato%20no%20linktree" target="_blank">
-            Agendamento de consultoria
-          </a>
-          <span>💻</span>
+        <div class="animista-link bg-fuchsia-200 px-4 py-5 w-full flex justify-between">
+          <div>
+            <a class="text-sm font-bold text-fuchsia-600 text-center hover:text-fuchsia-800 cursor-pointer"
+              href="http://wa.me/+5521981439590/?Oi,%20peguei%20o%20contato%20no%20linktree" target="_blank">
+              Agendamento de consultoria
+            </a>
+          </div>
+          <div>
+            <img src="./img/whatsappIcon.svg" width="23px" />
+          </div>
         </div>
-        <div class="bg-yellow-200 px-4 py-5 w-full flex justify-between">
-          <a class="text-sm font-bold text-yellow-600 text-center hover:text-yellow-800 cursor-pointer"
-            href="https://medium.com/@rgweb3" target="_blank">
-            Blog
-          </a>
-          <span>📖</span>
+        <div class="animista-link bg-yellow-200 px-4 py-5 w-full flex justify-between">
+          <div>  
+            <a class="text-sm font-bold text-yellow-600 text-center hover:text-yellow-800 cursor-pointer"
+              href="https://medium.com/@rgweb3" target="_blank">
+                Portfólio
+            </a>
+          </div>
+          <div><span><img src="./img/behanceIcon.svg" width="23px"/></span></div>
         </div>
-        <div class="bg-blue-200 px-4 py-5 w-full flex justify-between">
-          <a class="text-sm font-bold text-blue-600 text-center hover:text-blue-800 cursor-pointer"
-            href="#" target="_blank">
+        <div class="animista-link bg-blue-200 px-4 py-5 w-full flex justify-between">
+          <a class="text-sm font-bold text-blue-600 text-center hover:text-blue-800 cursor-pointer" href="#"
+            target="_blank">
             Podcast
           </a>
           <span>🎙️</span>
         </div>
-        <div class="bg-lime-200 px-4 py-5 w-full flex justify-between">
-          <a class="text-sm font-bold text-lime-600 text-center hover:text-lime-800 cursor-pointer"
-            href="#" target="_blank">
+        <div class="animista-link bg-lime-200 px-4 py-5 w-full flex justify-between">
+          <a class="text-sm font-bold text-lime-600 text-center hover:text-lime-800 cursor-pointer" href="#"
+            target="_blank">
             Artes Digitais
           </a>
           <span>🎒</span>
         </div>
-        <div class="bg-rose-200 px-4 py-5 w-full flex justify-between">
-          <a class="text-sm font-bold text-rose-600 text-center hover:text-rose-800 cursor-pointer"
-            href="#" target="_blank">
+        <div class="animista-link px-4 py-5 w-full flex justify-between">
+          <a class="text-sm font-bold text-rose-600 text-center hover:text-rose-800 cursor-pointer" href="#"
+            target="_blank">
             Gosta de criptomoedas?
           </a>
           <span>🚀</span>
@@ -160,16 +145,60 @@
     </div><!-- Fim do background branco -->
   </div><!-- Fim do container flexivel -->
 
+  <script>// Animação 
+    document.addEventListener("DOMContentLoaded", () => {
+      animateMenu(773);
+    })
+
+    function animateMenu(tempo = 1000) {
+      let links = document.getElementsByClassName("animista-link");
+      setTimeout(() => {
+        links[0].classList.add("shadow-pop-tr"); // Container 0
+        setTimeout(() => {
+          links[1].classList.add("shadow-pop-tr"); // Container 0 e 1
+          links[0].classList.add("rounded-lg");
+          setTimeout(() => {
+            links[2].classList.add("shadow-pop-tr"); // Container 1 e 2
+            links[1].classList.add("rounded-lg");
+            setTimeout(() => {
+              links[3].classList.add("shadow-pop-tr"); // Container 2 e 3
+              links[2].classList.add("rounded-lg");
+              setTimeout(() => {
+                links[4].classList.add("shadow-pop-tr"); // Container 3 e 4
+                links[3].classList.add("rounded-lg");
+                setTimeout(() => {
+                  links[4].classList.add("rounded-lg");
+                  let lp = document.getElementById("corpo-lp"); // Animação do corpo
+                  lp.classList.add("shadow-pop-bl");
+                }, tempo)
+              }, tempo)
+            }, tempo)
+          }, tempo)
+        }, tempo)
+      }, tempo)
+    }
+  </script>
+
   <!-- Footer rodapé -->
   <div class="flex-block max-w-xl p-4 md:pd-8 mx-auto text-center">
     <div class="text-center">
       <div class="card">
         <div class="p-4 mt-1 text-sm text-center card">
-          <a href="https://github.com/yodalk/yodalk.io"></a>2023 &copy; JRWebmaster</a>
+          <a href="#"></a>2024 &copy; JRWebmaster</a>
         </div>
       </div>
     </div>
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let animados = document.getElementsByClassName("animista-link");
+      for (ele in animados) {
+        console.log("Elementos: ", ele);
+      }
+
+    })
+  </script>
 </body>
 
 </html>

@@ -1,4 +1,11 @@
-# yodalk.io
+# Linktree JR Webmaster
+Site básico no formato linktree desenvolvido por JRWebmaster.
 
-Uma landing page simples para reunir tudo em um lugar só.
+##  Características do projeto
+- HTML
+- CSS
+- Biblioteca de animação [Nome da Biblioteca](#)
+- Deploy on Vercel
 
+## Resumo
+Esse é um mini site no formato linktree personalizado, hospedado pelo vercel.
